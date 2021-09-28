@@ -1,5 +1,7 @@
 
 // Fonction appelée lors du click du bouton
+document.body.onload = start();
+
 function start() {
   // Création de l'objet apiWeather
   const apiWeather = new API_WEATHER();
