@@ -8,7 +8,6 @@ const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 const API_URL_ICON = "http://openweathermap.org/img/wn/";
 
 
-const city = document.getElementById("city-input").value;
 
 class API_WEATHER{
   constructor(city){
